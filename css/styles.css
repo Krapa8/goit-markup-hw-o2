@@ -11,22 +11,127 @@ ul {
 }
 
 
----------------HEADER---------
+/*________HEADER____________*/
 
   .title {
-
+border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
+background: #FFF; 
   }
 
-  .navigation {}
+  .logo {
+        color:#2E2F42;
+        font-family: Raleway;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.2;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
 
-  .link {}
+  }
+  .web-logo {
+        color: #4d5ae5;
+        font-family: Raleway;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.2;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
 
-  .list {}
+  }
+  .title-list-item {
+        color: #2E2F42;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+  }
 
-  .item {}
+  .mail_link {
+    color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5
+    letter-spacing: 0.02em;
+  }
+  .number_link {
+    color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5 
+    letter-spacing: 0.02em;
+  }
+  /*sections*/
+  .main-phrase {
+        color: #FFF;
+        background: #2E2F42;
+        text-align: center;
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 1.0;
+        letter-spacing: 0.02;
+  }
+  .button-style {
+        color: #FFF;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04;
 
-  .address {}
+  }
+  .mainhtext {
 
-  .mail {}
+  }
+  .h-text {
+        color: #2E2F42;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02;
 
-  .number {}
+  }
+  .parts-texts {
+        color:#434455;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02;
+  }
+  .team-text {
+        color: #2E2F42;
+        text-align: center;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.1;
+        letter-spacing: 0.02;
+        text-transform: capitalize;
+  }
+  .photo {
+    background: url(<path-to-image>), lightgray -97.034px -0.927px / 181.897% 251.37% no-repeat;
+  }
+
+  .name-text {
+        color:#2E2F42;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02;
+  }
+  .ptext {
+    color: #434455;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02;
+  }
+  .pfooter {
+        color:#F4F4FD;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.5
+        letter-spacing: 0.02;
+  }
