@@ -49,7 +49,7 @@ background: #FFF;
       color: #404bbf;
   }
   .address-style: {
-      font-style: normal 
+      font-style: normal; 
   }
 
   .mail_link {
@@ -60,7 +60,7 @@ background: #FFF;
     letter-spacing: 0.02em;
   }
   .mail_link:hover,
-  .mail.linl:focus {
+  .mail_link:focus {
       color: #404bbf;
   }
   .number_link {
@@ -174,7 +174,7 @@ background: #FFF;
 
    }
    .studio-logo {
-         color: #2e2f42;
+         color: #f4f4fd;
          font-family: Raleway, sans-serif;
          font-size: 18px;
          font-weight: 700;
