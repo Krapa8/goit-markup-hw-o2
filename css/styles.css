@@ -48,32 +48,23 @@ background: #FFF;
   .title-list-item:focus {
       color: #404bbf;
   }
-  .address-style: {
+  .address-style {
       font-style: normal; 
   }
 
-  .mail_link {
+  .address_link {
     color: #434455;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
   }
-  .mail_link:hover,
-  .mail_link:focus {
+  .address_link:hover,
+  .address_link:focus {
       color: #404bbf;
   }
-  .number_link {
-    color: #434455;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5; 
-    letter-spacing: 0.02em;
-  }
-  .number_link:hover,
-  .number_link:focus {
-      color: #404bbf;
-  }
+ 
+  
   /*sections*/
   .section_type {
       background-color:#2e2f42;
