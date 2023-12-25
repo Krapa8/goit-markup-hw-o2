@@ -14,7 +14,6 @@ ul {
 /*________HEADER____________*/
 
   .title {
-border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
 background: #FFF; 
   }
 
@@ -50,14 +49,14 @@ background: #FFF;
       color: #404bbf;
   }
   .address-style: {
-      font-style: notmal 
+      font-style: normal 
   }
 
   .mail_link {
     color: #434455;
     font-size: 16px;
     font-weight: 400;
-    line-height: 1.5
+    line-height: 1.5;
     letter-spacing: 0.02em;
   }
   .mail_link:hover,
@@ -68,7 +67,7 @@ background: #FFF;
     color: #434455;
     font-size: 16px;
     font-weight: 400;
-    line-height: 1.5 
+    line-height: 1.5; 
     letter-spacing: 0.02em;
   }
   .number_link:hover,
@@ -89,7 +88,8 @@ background: #FFF;
         letter-spacing: 0.02em;
   }
   .button-style {
-        color: #4D5AE5;
+        color: #ffffff;
+        background-color: #4D5AE5;
         font-family: Roboto, sans-serif;
         font-size: 16px;
         font-style: normal;
@@ -101,7 +101,7 @@ background: #FFF;
   }
   .button-style:hover,
   .button-style:focus {
-     color: #404BBF;
+       background-color: #404BBF;
   }
   .mainhtext {
 
@@ -162,7 +162,28 @@ background: #FFF;
   .footer_description {
         background-color: #2e2f42;
   }
-  .pfooter {
+
+   .logo {
+         color: #4d5ae5;
+         font-family: Raleway, sans-serif;
+         font-size: 18px;
+         font-weight: 700;
+         line-height: 1.17;
+         letter-spacing: 0.03em;
+         text-transform: uppercase;
+
+   }
+   .studio-logo {
+         color: #2e2f42;
+         font-family: Raleway, sans-serif;
+         font-size: 18px;
+         font-weight: 700;
+         line-height: 1.17;
+         letter-spacing: 0.03em;
+         text-transform: uppercase;
+      }
+  
+    .pfooter {
         color:#F4F4FD;
         font-size: 16px;
         font-style: normal;
